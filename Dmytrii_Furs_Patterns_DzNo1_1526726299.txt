@@ -1,0 +1,5 @@
+http://yuml.me/edit/65284fe2
+
+[Client]->[Abstract file], [Client]->[Abstract editing program],[Abstract file]^-[File],
+[Abstract editing program]^-[Editing text program|+Create;+Open;+Save;+Save as;+Print;+Close],
+[File]^-.-[Editing text program|+Create;+Open;+Save;+Save as;+Print;+Close]
